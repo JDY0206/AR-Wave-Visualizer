@@ -1,0 +1,37 @@
+Original idea: To make a product that allows the user to visually see close to real time electromagnetic waves with a headset. This includes signals like cellular connections to phones, wifi connections, and any other related signals. 
+ - A switch or buttons to switch between signals being detected would probably be required, to prevent overloading the system or just seeing a jumble of noise.
+ - A backpack for the user to wear while using the goggles that holds the power supply and other hefty components.
+ - The headset itself won’t be real time, but I want to try and make it as close as possible to real time. Maybe add a function that dictates how fast the signal visuals are updated, to allow the user to see the waves at varying speeds. Although even at the fastest mode, it’ll still be a slower version than the actual waves. 
+
+Immediate Limitations: 
+Hardware Constraints:
+  - SDR sensitivity and range: This is really limited by cost. 
+  - Directional sensing: The amount and quality of sensors and antennas I use will dictate the stability and reliability of these readings. 
+  - Integrating everything into a wearable headset: Could be a huge hassle since a lot of the components could be bulky depending on what I decide to use. 
+Signal Ambiguity:
+  - Signal Interference: signals can bounce and interact with the environment in seemingly random ways, which could give weird readings and visualizations. 
+  - Overlapping Signals: Hence the switch/ button idea for switching between modes. But Wifi, Bluetooth, and other signals all share the 2.4 GHz band, so it could be hard to distinguish them. 
+  - General Noise: Things like generators, ambient RF noise, and really any other noise source could lead to some crazy visuals or a system overload. 
+Data Processing:
+  - Real time computation: FFTs and filtering and rendering is going to take an immense amount of computing power. 
+  - Latency: Lags in the sensors and AR rendering could cause the visualization to become unstable. 
+  - Calibration: The RF data needs to be aligned with the head tracking, which is a whole other issue to consider. 
+Other Limitations: 
+  - Portability: The whole system should hopefully be portable, but could turn out to be really bulky or generally hard to move. 
+  - Regulatory Issues: Make sure the Headset can’t transmit, and is compliant with FCC restrictions.
+  - Battery Life: The amount of computational work this is going to take will drain power like crazy. So, finding an adequate power source. 
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
