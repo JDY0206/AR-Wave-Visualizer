@@ -1,0 +1,30 @@
+Use a backpack for power?
+ - How much power is the processing going to draw? 
+ - Will it be possible for the headset to be run off of batteries or will it be restricted to being plugged in? 
+ - Would it still be safe to run the headset off of a battery power supply?
+Processing?
+ - What processor should I use? 
+ - Potentially use a biker helmet to equip sensors on the top and link AR.
+Look at other AR Projects.
+ - Mainly looking at wave modeling from games out, stuff like ray tracing and hyper realistic graphics could give me an idea as to how to model things like the waves I want to model. 
+Look into Apple vision pro compatibility. 
+ - Would it work if I used this headset? 
+ - If not, what other headsets could I use? 
+Find what software to use.
+ - Basically between just using python or using Unity. 
+Pick a few main sensors for a main 3 types of waves to switch between 
+ - Distinguishing between similar waves is going to be tricky. 
+Look into a module that can switch between these main types of waves I want to visualize. 
+Headset Directional Sensors:
+ - How am I going to coordinate the visuals with where the headset is facing?
+ - What additional sensors will this require? 
+Need funding 
+ - Especially if I’m going to use good hardware 
+ - Build 2 different plans for the headset 
+    - 1 budget one, using parts that I personally could afford
+    - A 2nd optimal rig, if I were to get a grant or something for this project
+    - And can use my list of parts to work in between the two as money comes in, if it does 
+
+
+
+
