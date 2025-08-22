@@ -5,7 +5,7 @@ AR Wave Visualizer
 The AR Wave Visualizer is a project that aims to make invisible electromagnetic (EM) signals visible in near real-time through an augmented reality headset.
 By combining software-defined radios (SDRs), signal processing, and AR visualization, the system allows users to “see” wireless signals such as WiFi, Bluetooth, and cellular connections as immersive wave patterns.
 
-# Features #
+### Features #
 
  - Signal Visualization – Render WiFi, cellular, and Bluetooth signals as dynamic waves or vector fields.
  - Signal Mode Switching – Toggle between signal types to reduce clutter and avoid overlapping noise.
@@ -14,7 +14,7 @@ By combining software-defined radios (SDRs), signal processing, and AR visualiza
  - AR Integration – Visualizations aligned with headset tracking for immersive experience.
  - System Architecture
 
-# Headset #
+### Headset #
 
  - Displays EM visualizations.
  - Includes mode-switching buttons.
@@ -26,7 +26,7 @@ By combining software-defined radios (SDRs), signal processing, and AR visualiza
  - Applies FFTs, filtering, and noise reduction.
  - Converts signals into AR-ready waveforms and patterns.
 
-# Current Limitations #
+### Current Limitations #
 
  - Hardware Constraints – SDR sensitivity, antenna quality, and wearable integration.
  - Signal Ambiguity – Overlapping signals (e.g., 2.4 GHz WiFi & Bluetooth) can cause interference.
@@ -36,7 +36,7 @@ By combining software-defined radios (SDRs), signal processing, and AR visualiza
  - Battery Life – High power draw from continuous SDR + AR rendering.
  - Regulatory Compliance – Must remain passive (non-transmitting) to meet FCC restrictions.
 
- # Roadmap #
+ ### Roadmap #
  
   - Mockups and hardware diagrams.
   - Aquire required hardware. 
